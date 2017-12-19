@@ -1,0 +1,771 @@
+BASH$ cmake -H. -Bbuild -GXcode
+-- [hunter] Initializing Hunter workspace (67ab3a0206d8cdb9372ce22dc28eafc1d6bcc557)
+-- [hunter]   https://github.com/ruslo/hunter/archive/v0.19.188.tar.gz
+-- [hunter]   -> /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/username/.hunter
+-- [hunter] [ Hunter-ID: 67ab3a0 | Toolchain-ID: e6fe91d | Config-ID: 3db3de9 ]
+-- [hunter] BOOST_ROOT: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Install (ver.: 1.65.1)
+-- [hunter] Building Boost
+loading initial cache file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/cache.cmake
+loading initial cache file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/args.cmake
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build
+=== BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-391C9A4C8DB042B78A0EEDD9.sh
+chmod 0755 /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-391C9A4C8DB042B78A0EEDD9.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/ZERO_CHECK.build/Script-391C9A4C8DB042B78A0EEDD9.sh
+    cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-391C9A4C8DB042B78A0EEDD9.sh
+echo ""
+
+make -f /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/CMakeScripts/ReRunCMake.make
+make[1]: `/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/CMakeFiles/cmake.check_cache' is up to date.
+
+=== BUILD AGGREGATE TARGET Boost OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/Boost.build/Script-C107AFA01CF541E2990BA767.sh
+chmod 0755 /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/Boost.build/Script-C107AFA01CF541E2990BA767.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/Boost.build/Script-C107AFA01CF541E2990BA767.sh
+    cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/Boost.build/Script-C107AFA01CF541E2990BA767.sh
+echo "Creating directories for 'Boost'"
+Creating directories for 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-mkdir
+echo "Performing download step (download, verify and extract) for 'Boost'"
+Performing download step (download, verify and extract) for 'Boost'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/download-Boost.cmake
+-- Downloading...
+   dst='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+   timeout='none'
+-- Using src='https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.bz2'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+-- Downloading... done
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/verify-Boost.cmake
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/extract-Boost.cmake
+-- extracting...
+     src='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+     dst='/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-download
+echo "Performing update step for 'Boost'"
+Performing update step for 'Boost'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/append-boost-config-macros.cmake
+echo "No patch step for 'Boost'"
+No patch step for 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-patch
+echo "Performing configure step for 'Boost'"
+Performing configure step for 'Boost'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/scripts/clear-all.sh && ./bootstrap.sh
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /System/Library/Frameworks/Python.framework/Versions/2.7
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-configure
+echo "No build step for 'Boost'"
+No build step for 'Boost'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-build
+echo "Performing install step for 'Boost'"
+Performing install step for 'Boost'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && ./b2 --layout=tagged -d0 install --without-atomic --without-chrono --without-container --without-context --without-coroutine --without-date_time --without-exception --without-fiber --without-filesystem --without-graph --without-graph_parallel --without-iostreams --without-locale --without-log --without-math --without-metaparse --without-mpi --without-program_options --without-python --without-random --without-regex --without-serialization --without-signals --without-stacktrace --without-system --without-test --without-thread --without-timer --without-type_erasure --without-wave --prefix=/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Install --ignore-site-config
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -C/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/args.cmake -Dsrcdir=/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source -Ddstdir=/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Install/licenses/Boost -P /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/scripts/try-copy-license.cmake
+loading initial cache file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/args.cmake
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-install
+echo "Completed 'Boost'"
+Completed 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/CMakeFiles/Debug
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/CMakeFiles/Debug/Boost-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug/Boost-done
+
+=== BUILD AGGREGATE TARGET ALL_BUILD OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ALL_BUILD.build/Script-BAEA071065B347A79C2CAE25.sh
+chmod 0755 /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ALL_BUILD.build/Script-BAEA071065B347A79C2CAE25.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/ALL_BUILD.build/Script-BAEA071065B347A79C2CAE25.sh
+    cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/Build/Hunter.build/Debug/ALL_BUILD.build/Script-BAEA071065B347A79C2CAE25.sh
+echo ""
+
+echo Build\ all\ projects
+Build all projects
+
+** BUILD SUCCEEDED **
+
+-- [hunter] Build step successful (dir: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost)
+-- [hunter] Cache saved: /Users/username/.hunter/_Base/Cache/raw/e8dfbc37a011ef9cd67cc4f340b0d01334310873.tar.bz2
+-- [hunter] BOOST_ROOT: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Install (ver.: 1.65.1)
+-- [hunter] Building Boost (component: filesystem)
+loading initial cache file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/cache.cmake
+loading initial cache file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/args.cmake
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build
+=== BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-799E7C197915482C8B55B9EE.sh
+chmod 0755 /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-799E7C197915482C8B55B9EE.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/ZERO_CHECK.build/Script-799E7C197915482C8B55B9EE.sh
+    cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/ZERO_CHECK.build/Script-799E7C197915482C8B55B9EE.sh
+echo ""
+
+make -f /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/CMakeScripts/ReRunCMake.make
+make[1]: `/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/CMakeFiles/cmake.check_cache' is up to date.
+
+=== BUILD AGGREGATE TARGET Boost-filesystem OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/Boost-filesystem.build/Script-F8A01BE717E440F58A731228.sh
+chmod 0755 /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/Boost-filesystem.build/Script-F8A01BE717E440F58A731228.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/Boost-filesystem.build/Script-F8A01BE717E440F58A731228.sh
+    cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Hunter.build/Debug/Boost-filesystem.build/Script-F8A01BE717E440F58A731228.sh
+echo "Creating directories for 'Boost-filesystem'"
+Creating directories for 'Boost-filesystem'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug/Boost-filesystem-mkdir
+echo "Performing download step (download, verify and extract) for 'Boost-filesystem'"
+Performing download step (download, verify and extract) for 'Boost-filesystem'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/download-Boost-filesystem.cmake
+-- verifying file...
+       file='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+-- File already exists and hash match (skip download):
+  file='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+  SHA1='4a5b0c3c1b1b9a4d6cb6a6cc395e903e76f76720'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/verify-Boost-filesystem.cmake
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/extract-Boost-filesystem.cmake
+-- extracting...
+     src='/Users/username/.hunter/_Base/Download/Boost/1.65.1/4a5b0c3/boost_1_65_1.tar.bz2'
+     dst='/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug/Boost-filesystem-download
+echo "Performing update step for 'Boost-filesystem'"
+Performing update step for 'Boost-filesystem'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/append-boost-config-macros.cmake
+echo "No patch step for 'Boost-filesystem'"
+No patch step for 'Boost-filesystem'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug/Boost-filesystem-patch
+echo "Performing configure step for 'Boost-filesystem'"
+Performing configure step for 'Boost-filesystem'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo configure
+configure
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source && ./bootstrap.sh
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /System/Library/Frameworks/Python.framework/Versions/2.7
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug/Boost-filesystem-configure
+echo "Performing build step for 'Boost-filesystem'"
+Performing build step for 'Boost-filesystem'
+cd /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Source && ./b2 -a link=static threading=multi variant=debug,release --layout=tagged toolset=darwin --user-config=/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/boost.user.jam --with-filesystem -j 32 --ignore-site-config
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 704 targets...
+...updating 51 targets...
+common.mkdir stage
+common.mkdir bin.v2/libs
+common.mkdir stage/lib
+common.mkdir bin.v2/libs/system
+common.mkdir bin.v2/libs/filesystem
+common.mkdir bin.v2/libs/system/build
+common.mkdir bin.v2/libs/filesystem/build
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/debug
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/debug
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/release
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/release
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/release/link-static
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/debug/link-static
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi
+common.mkdir bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi
+common.mkdir bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/windows_file_codecvt.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/windows_file_codecvt.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/windows_file_codecvt.o" "libs/filesystem/src/windows_file_codecvt.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/windows_file_codecvt.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/windows_file_codecvt.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/windows_file_codecvt.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/windows_file_codecvt.o" "libs/filesystem/src/windows_file_codecvt.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/windows_file_codecvt.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/utf8_codecvt_facet.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/utf8_codecvt_facet.cpp:15:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/utf8_codecvt_facet.o" "libs/filesystem/src/utf8_codecvt_facet.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/utf8_codecvt_facet.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/utf8_codecvt_facet.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/utf8_codecvt_facet.cpp:15:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/utf8_codecvt_facet.o" "libs/filesystem/src/utf8_codecvt_facet.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/utf8_codecvt_facet.o...
+darwin.compile.c++ bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi/error_code.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/system/src/error_code.cpp:16:
+In file included from ./boost/system/error_code.hpp:14:
+In file included from ./boost/system/config.hpp:13:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi/error_code.o" "libs/system/src/error_code.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi/error_code.o...
+...skipped <pbin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi>libboost_system-mt.a(clean) for lack of <pbin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi>error_code.o...
+...skipped <pbin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi>libboost_system-mt.a for lack of <pbin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi>error_code.o...
+...skipped <pstage/lib>libboost_system-mt.a for lack of <pbin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi>libboost_system-mt.a...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/codecvt_error_category.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/codecvt_error_category.cpp:22:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/codecvt_error_category.o" "libs/filesystem/src/codecvt_error_category.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/codecvt_error_category.o...
+darwin.compile.c++ bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi/error_code.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/system/src/error_code.cpp:16:
+In file included from ./boost/system/error_code.hpp:14:
+In file included from ./boost/system/config.hpp:13:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi/error_code.o" "libs/system/src/error_code.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi/error_code.o...
+...skipped <pbin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_system-mt-d.a(clean) for lack of <pbin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi>error_code.o...
+...skipped <pbin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_system-mt-d.a for lack of <pbin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi>error_code.o...
+...skipped <pstage/lib>libboost_system-mt-d.a for lack of <pbin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_system-mt-d.a...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path_traits.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/path_traits.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path_traits.o" "libs/filesystem/src/path_traits.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path_traits.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path_traits.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/path_traits.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path_traits.o" "libs/filesystem/src/path_traits.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path_traits.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/codecvt_error_category.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/codecvt_error_category.cpp:22:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/codecvt_error_category.o" "libs/filesystem/src/codecvt_error_category.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/codecvt_error_category.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/portability.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/portability.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/portability.o" "libs/filesystem/src/portability.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/portability.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/portability.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/portability.cpp:20:
+In file included from ./boost/filesystem/config.hpp:28:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/portability.o" "libs/filesystem/src/portability.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/portability.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/unique_path.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/unique_path.cpp:20:
+In file included from ./boost/filesystem/operations.hpp:18:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/unique_path.o" "libs/filesystem/src/unique_path.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/unique_path.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/path.cpp:12:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path.o" "libs/filesystem/src/path.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/path.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/unique_path.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/unique_path.cpp:20:
+In file included from ./boost/filesystem/operations.hpp:18:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/unique_path.o" "libs/filesystem/src/unique_path.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/unique_path.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/path.cpp:12:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path.o" "libs/filesystem/src/path.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/path.o...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/operations.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/operations.cpp:44:
+In file included from ./boost/filesystem/operations.hpp:18:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O0 -fno-inline -Wall -g -gdwarf-2 -fexceptions -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/operations.o" "libs/filesystem/src/operations.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/operations.o...
+...skipped <pbin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_filesystem-mt-d.a(clean) for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi>codecvt_error_category.o...
+...skipped <pbin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_filesystem-mt-d.a for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi>codecvt_error_category.o...
+...skipped <pstage/lib>libboost_filesystem-mt-d.a for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi>libboost_filesystem-mt-d.a...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/operations.o
+clang: warning: no such sysroot directory: 'macosx' [-Wmissing-sysroot]
+In file included from libs/filesystem/src/operations.cpp:44:
+In file included from ./boost/filesystem/operations.hpp:18:
+In file included from ./boost/config.hpp:57:
+In file included from ./boost/config/platform/macos.hpp:28:
+./boost/config/detail/posix_features.hpp:18:15: fatal error: 'unistd.h' file not found
+#     include <unistd.h>
+              ^~~~~~~~~~
+1 error generated.
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "-isysroot" "macosx"   -O3 -Wall -gdwarf-2 -fexceptions -Wno-inline -arch x86_64  -DBOOST_ALL_NO_LIB=1 -DBOOST_FILESYSTEM_STATIC_LINK=1 -DBOOST_SYSTEM_STATIC_LINK=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/operations.o" "libs/filesystem/src/operations.cpp"
+
+...failed darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi/operations.o...
+...skipped <pbin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi>libboost_filesystem-mt.a(clean) for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi>codecvt_error_category.o...
+...skipped <pbin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi>libboost_filesystem-mt.a for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi>codecvt_error_category.o...
+...skipped <pstage/lib>libboost_filesystem-mt.a for lack of <pbin.v2/libs/filesystem/build/darwin-4.2.1/release/link-static/threading-multi>libboost_filesystem-mt.a...
+...failed updating 18 targets...
+...skipped 12 targets...
+...updated 21 targets...
+make: *** [/Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem/Build/Boost-filesystem-prefix/src/Boost-filesystem-stamp/Debug/Boost-filesystem-build] Error 1
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug/Boost-filesystem.build/Script-F8A01BE717E440F58A731228.sh
+(1 failure)
+
+[hunter ** FATAL ERROR **] Build step failed (dir: /Users/username/.hunter/_Base/67ab3a0/e6fe91d/3db3de9/Build/Boost/__filesystem
+[hunter ** FATAL ERROR **] [Directory:/Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/projects/Boost/filesystem]
+
+------------------------------ WIKI -------------------------------
+    https://github.com/ruslo/hunter/wiki/error.external.build.failed
+-------------------------------------------------------------------
+
+CMake Error at /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/modules/hunter_wiki.cmake:12 (message):
+Call Stack (most recent call first):
+  /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/modules/hunter_fatal_error.cmake:20 (hunter_wiki)
+  /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/modules/hunter_download.cmake:642 (hunter_fatal_error)
+  /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/projects/Boost/filesystem/hunter.cmake:16 (hunter_download)
+  /Users/username/.hunter/_Base/Download/Hunter/0.19.188/67ab3a0/Unpacked/cmake/modules/hunter_add_package.cmake:53 (include)
+  CMakeLists.txt:44 (hunter_add_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/username/workspace/hunter-example/mac/build/CMakeFiles/CMakeOutput.log".

@@ -8,8 +8,6 @@ HunterGate(URL "https://github.com/ruslo/hunter/archive/v0.19.188.tar.gz"
 
 project(HunterExample)
 
-set(CMAKE_OSX_SYSROOT "macosx")
-
 set(RESOURCES
     "English.lproj/Credits.rtf"
     "English.lproj/InfoPlist.strings"
@@ -17,7 +15,7 @@ set(RESOURCES
 
 add_executable(HunterExample
     MACOSX_BUNDLE
-    "HEAppDelegate.m"
+    "HEAppDelegate.mm"
     "main.m"
     ${RESOURCES})
 
@@ -30,9 +28,8 @@ set_target_properties(HunterExample
     XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "com.example.hunter"
     RESOURCE "${RESOURCES}")
 
-target_link_libraries(HunterExample PRIVATE "-framework Cocoa")
+target_link_libraries(HunterExample PRIVATE "-framework AppKit")
 
-# Adds dependencies.
-hunter_add_package(Boost COMPONENTS filesystem system)
-find_package(Boost CONFIG REQUIRED filesystem system)
-target_link_libraries(HunterExample PUBLIC Boost::filesystem Boost::system)
+hunter_add_package(yaml-cpp)
+find_package(yaml-cpp CONFIG REQUIRED)
+target_link_libraries(HunterExample PUBLIC yaml-cpp::yaml-cpp)

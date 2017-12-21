@@ -1,0 +1,1172 @@
+BASH$ cmake -H. -Bbuild -GXcode -DCMAKE_TOOLCHAIN_FILE=$POLLY_ROOT/ios.cmake
+-- [hunter] Initializing Hunter workspace (4128ac8c79c21b250bf825e8119ce0bff05e5132)
+-- [hunter]   https://github.com/ruslo/hunter/archive/v0.19.208.tar.gz
+-- [hunter]   -> /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8
+-- [polly] Used toolchain: iOS 11.2 Universal (iphoneos + iphonesimulator) / clang / c++14 support
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/username/.hunter
+-- [hunter] [ Hunter-ID: 4128ac8 | Toolchain-ID: f44fc4c | Config-ID: 9d8fc8e ]
+-- [hunter] BOOST_ROOT: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Install (ver.: 1.66.0)
+-- [hunter] Building Boost
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/cache.cmake
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/args.cmake
+-- [polly] Used toolchain: iOS 11.2 Universal (iphoneos + iphonesimulator) / clang / c++14 support
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build
+=== BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-798F320E27594EDDAD19BA87.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-798F320E27594EDDAD19BA87.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-798F320E27594EDDAD19BA87.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-798F320E27594EDDAD19BA87.sh
+echo ""
+
+make -f /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/CMakeScripts/ReRunCMake.make
+make[1]: `/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/CMakeFiles/cmake.check_cache' is up to date.
+
+=== BUILD AGGREGATE TARGET Boost OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/Boost.build/Script-F46BD7CDB2074CB1BA32C312.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/Boost.build/Script-F46BD7CDB2074CB1BA32C312.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost.build/Script-F46BD7CDB2074CB1BA32C312.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/Boost.build/Script-F46BD7CDB2074CB1BA32C312.sh
+echo "Creating directories for 'Boost'"
+Creating directories for 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-mkdir
+echo "Performing download step (download, verify and extract) for 'Boost'"
+Performing download step (download, verify and extract) for 'Boost'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/download-Boost.cmake
+-- Downloading...
+   dst='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+   timeout='none'
+-- Using src='https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.7z'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+-- Downloading... done
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/verify-Boost.cmake
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/extract-Boost.cmake
+-- extracting...
+     src='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+     dst='/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-download
+echo "Performing update step for 'Boost'"
+Performing update step for 'Boost'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/append-boost-config-macros.cmake
+echo "No patch step for 'Boost'"
+No patch step for 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-patch
+echo "Performing configure step for 'Boost'"
+Performing configure step for 'Boost'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo "Dummy patch command"
+Dummy patch command
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/clear-all.sh && ./bootstrap.sh
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /System/Library/Frameworks/Python.framework/Versions/2.7
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-configure
+echo "No build step for 'Boost'"
+No build step for 'Boost'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-build
+echo "Performing install step for 'Boost'"
+Performing install step for 'Boost'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && ./b2 --layout=tagged -d0 install --without-atomic --without-chrono --without-container --without-context --without-coroutine --without-date_time --without-exception --without-fiber --without-filesystem --without-graph --without-graph_parallel --without-iostreams --without-locale --without-log --without-math --without-mpi --without-program_options --without-python --without-random --without-regex --without-serialization --without-signals --without-stacktrace --without-system --without-test --without-thread --without-timer --without-type_erasure --without-wave --prefix=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Install --ignore-site-config
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -C/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/args.cmake -Dsrcdir=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source -Ddstdir=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Install/licenses/Boost -P /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/try-copy-license.cmake
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/args.cmake
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-install
+echo "Completed 'Boost'"
+Completed 'Boost'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/CMakeFiles/Debug-iphoneos/Boost-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Boost-prefix/src/Boost-stamp/Debug-iphoneos/Boost-done
+
+=== BUILD AGGREGATE TARGET ALL_BUILD OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-DC87451D8A1147A78D60EDD4.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-DC87451D8A1147A78D60EDD4.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-DC87451D8A1147A78D60EDD4.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-DC87451D8A1147A78D60EDD4.sh
+echo ""
+
+echo Build\ all\ projects
+Build all projects
+
+** BUILD SUCCEEDED **
+
+-- [hunter] Build step successful (dir: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost)
+-- [hunter] Cache saved: /Users/username/.hunter/_Base/Cache/raw/a8762759aa8680604300caa0e58905f1ae7e6ccf.tar.bz2
+-- [hunter] BOOST_ROOT: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Install (ver.: 1.66.0)
+-- [hunter] Building Boost (component: filesystem)
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/cache.cmake
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/args.cmake
+-- [polly] Used toolchain: iOS 11.2 Universal (iphoneos + iphonesimulator) / clang / c++14 support
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build
+=== BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-B57A93481A954BCE8679C5CB.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-B57A93481A954BCE8679C5CB.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-B57A93481A954BCE8679C5CB.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-B57A93481A954BCE8679C5CB.sh
+echo ""
+
+make -f /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeScripts/ReRunCMake.make
+make[1]: `/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/cmake.check_cache' is up to date.
+
+=== BUILD AGGREGATE TARGET Boost-filesystem-ios OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios.build/Script-C65A4CF7F6784DE89474B293.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios.build/Script-C65A4CF7F6784DE89474B293.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios.build/Script-C65A4CF7F6784DE89474B293.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios.build/Script-C65A4CF7F6784DE89474B293.sh
+echo "Creating directories for 'Boost-filesystem-ios'"
+Creating directories for 'Boost-filesystem-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-mkdir
+echo "Performing download step (download, verify and extract) for 'Boost-filesystem-ios'"
+Performing download step (download, verify and extract) for 'Boost-filesystem-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/download-Boost-filesystem-ios.cmake
+-- verifying file...
+       file='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+-- File already exists and hash match (skip download):
+  file='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+  SHA1='075d0b43980614054b1f1bafd189f863bba6600e'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/verify-Boost-filesystem-ios.cmake
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/extract-Boost-filesystem-ios.cmake
+-- extracting...
+     src='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+     dst='/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-download
+echo "No update step for 'Boost-filesystem-ios'"
+No update step for 'Boost-filesystem-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-update
+echo "No patch step for 'Boost-filesystem-ios'"
+No patch step for 'Boost-filesystem-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-patch
+echo "Performing configure step for 'Boost-filesystem-ios'"
+Performing configure step for 'Boost-filesystem-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/clear-all.sh && ./bootstrap.sh --with-libraries=filesystem --prefix=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-configure
+echo "Performing build step for 'Boost-filesystem-ios'"
+Performing build step for 'Boost-filesystem-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && ./b2 toolset=darwin-iphoneos target-os=iphone architecture=arm instruction-set=armv7 -a link=static threading=multi variant=release,debug define=BOOST_SP_NO_SYNC --layout=tagged --user-config=\"/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/boost.user.jam\" cxxflags=-miphoneos-version-min=11.2 -j 32
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : no
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : no
+    - combined                 : no
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 727 targets...
+...updating 67 targets...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/codecvt_error_category.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/codecvt_error_category.o
+common.copy stage/lib/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/path_traits.o
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/path_traits.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/portability.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+common.copy stage/lib/libboost_system-mt.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/portability.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/unique_path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/unique_path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/operations.o
+darwin.archive bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt-d.a
+common.copy stage/lib/libboost_filesystem-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/operations.o
+darwin.archive bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt.a
+common.copy stage/lib/libboost_filesystem-mt.a
+...updated 67 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+
+The following directory should be added to linker library paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/stage/lib
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-build
+echo "No install step for 'Boost-filesystem-ios'"
+No install step for 'Boost-filesystem-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-install
+echo "Completed 'Boost-filesystem-ios'"
+Completed 'Boost-filesystem-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos/Boost-filesystem-ios-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios-prefix/src/Boost-filesystem-ios-stamp/Debug-iphoneos/Boost-filesystem-ios-done
+
+=== BUILD AGGREGATE TARGET Boost-filesystem-ios_sim OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_sim.build/Script-11FB76F8BC6347AABB2D7D2C.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_sim.build/Script-11FB76F8BC6347AABB2D7D2C.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_sim.build/Script-11FB76F8BC6347AABB2D7D2C.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_sim.build/Script-11FB76F8BC6347AABB2D7D2C.sh
+echo "Creating directories for 'Boost-filesystem-ios_sim'"
+Creating directories for 'Boost-filesystem-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-mkdir
+echo "No download step for 'Boost-filesystem-ios_sim'"
+No download step for 'Boost-filesystem-ios_sim'
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-download
+echo "No update step for 'Boost-filesystem-ios_sim'"
+No update step for 'Boost-filesystem-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-update
+echo "No patch step for 'Boost-filesystem-ios_sim'"
+No patch step for 'Boost-filesystem-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-patch
+echo "Performing configure step for 'Boost-filesystem-ios_sim'"
+Performing configure step for 'Boost-filesystem-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/clear-all.sh && ./bootstrap.sh --with-libraries=filesystem --prefix=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Backing up existing Boost.Build configuration in project-config.jam.1
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-configure
+echo "Performing build step for 'Boost-filesystem-ios_sim'"
+Performing build step for 'Boost-filesystem-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && ./b2 toolset=darwin-iphonesimulator target-os=iphone architecture=x86 -a link=static threading=multi variant=release,debug define=BOOST_SP_NO_SYNC --layout=tagged --user-config=\"/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/boost.user.jam\" cxxflags=-miphoneos-version-min=11.2 -j 32
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : no
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : no
+    - combined                 : no
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 723 targets...
+...updating 56 targets...
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/codecvt_error_category.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/codecvt_error_category.o
+common.copy stage/lib/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/path_traits.o
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+common.copy stage/lib/libboost_system-mt.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/portability.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/path_traits.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/portability.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/unique_path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/unique_path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/operations.o
+darwin.archive bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt-d.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o has no symbols
+common.copy stage/lib/libboost_filesystem-mt-d.a
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/path.o
+darwin.compile.c++ bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/operations.o
+darwin.archive bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/windows_file_codecvt.o has no symbols
+common.copy stage/lib/libboost_filesystem-mt.a
+...updated 56 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+
+The following directory should be added to linker library paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/stage/lib
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-build
+echo "No install step for 'Boost-filesystem-ios_sim'"
+No install step for 'Boost-filesystem-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-install
+echo "Completed 'Boost-filesystem-ios_sim'"
+Completed 'Boost-filesystem-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos/Boost-filesystem-ios_sim-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_sim-prefix/src/Boost-filesystem-ios_sim-stamp/Debug-iphoneos/Boost-filesystem-ios_sim-done
+
+=== BUILD AGGREGATE TARGET Boost-filesystem-ios_universal OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_universal.build/Script-1F5A2F3C34A74401B0A182F4.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_universal.build/Script-1F5A2F3C34A74401B0A182F4.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_universal.build/Script-1F5A2F3C34A74401B0A182F4.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/Boost-filesystem-ios_universal.build/Script-1F5A2F3C34A74401B0A182F4.sh
+echo "Creating directories for 'Boost-filesystem-ios_universal'"
+Creating directories for 'Boost-filesystem-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-mkdir
+echo "No download step for 'Boost-filesystem-ios_universal'"
+No download step for 'Boost-filesystem-ios_universal'
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-download
+echo "Performing update step for 'Boost-filesystem-ios_universal'"
+Performing update step for 'Boost-filesystem-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/append-boost-config-macros.cmake
+echo "No patch step for 'Boost-filesystem-ios_universal'"
+No patch step for 'Boost-filesystem-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-patch
+echo "No configure step for 'Boost-filesystem-ios_universal'"
+No configure step for 'Boost-filesystem-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-configure
+echo "No build step for 'Boost-filesystem-ios_universal'"
+No build step for 'Boost-filesystem-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-build
+echo "Performing install step for 'Boost-filesystem-ios_universal'"
+Performing install step for 'Boost-filesystem-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install/lib
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/cmake/projects/Boost/scripts/create-boost-1-66-ios-fatlib.sh /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source filesystem filesystem /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install/lib
+-- [iOS universal] IPHONE_DEBUG: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt-d.a
+-- [iOS universal] IPHONE_RELEASE: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/bin.v2/libs/filesystem/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt.a
+-- [iOS universal] ISIM_DEBUG: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt-d.a
+-- [iOS universal] ISIM_RELEASE: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Source/bin.v2/libs/filesystem/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_filesystem-mt.a
+-- [iOS universal] Done: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Install/lib/{libboost_filesystem-mt-d.a, libboost_filesystem-mt.a}
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-install
+echo "Completed 'Boost-filesystem-ios_universal'"
+Completed 'Boost-filesystem-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/CMakeFiles/Debug-iphoneos/Boost-filesystem-ios_universal-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Boost-filesystem-ios_universal-prefix/src/Boost-filesystem-ios_universal-stamp/Debug-iphoneos/Boost-filesystem-ios_universal-done
+
+=== BUILD AGGREGATE TARGET ALL_BUILD OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-46B4262C667E446E944892B9.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-46B4262C667E446E944892B9.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-46B4262C667E446E944892B9.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-46B4262C667E446E944892B9.sh
+echo ""
+
+echo Build\ all\ projects
+Build all projects
+
+** BUILD SUCCEEDED **
+
+-- [hunter] Build step successful (dir: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__filesystem)
+-- [hunter] Cache saved: /Users/username/.hunter/_Base/Cache/raw/da64f7202178cb93152601538a8e58277232a719.tar.bz2
+-- [hunter] BOOST_ROOT: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Install (ver.: 1.66.0)
+-- [hunter] Building Boost (component: system)
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/cache.cmake
+loading initial cache file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/args.cmake
+-- [polly] Used toolchain: iOS 11.2 Universal (iphoneos + iphonesimulator) / clang / c++14 support
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build
+=== BUILD AGGREGATE TARGET ZERO_CHECK OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-D7CBEA7CF1DB443AB399B821.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-D7CBEA7CF1DB443AB399B821.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-D7CBEA7CF1DB443AB399B821.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ZERO_CHECK.build/Script-D7CBEA7CF1DB443AB399B821.sh
+echo ""
+
+make -f /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeScripts/ReRunCMake.make
+make[1]: `/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/cmake.check_cache' is up to date.
+
+=== BUILD AGGREGATE TARGET Boost-system-ios OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios.build/Script-71008D65E24A48BCA32B3593.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios.build/Script-71008D65E24A48BCA32B3593.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-system-ios.build/Script-71008D65E24A48BCA32B3593.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios.build/Script-71008D65E24A48BCA32B3593.sh
+echo "Creating directories for 'Boost-system-ios'"
+Creating directories for 'Boost-system-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-mkdir
+echo "Performing download step (download, verify and extract) for 'Boost-system-ios'"
+Performing download step (download, verify and extract) for 'Boost-system-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/download-Boost-system-ios.cmake
+-- verifying file...
+       file='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+-- File already exists and hash match (skip download):
+  file='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+  SHA1='075d0b43980614054b1f1bafd189f863bba6600e'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/verify-Boost-system-ios.cmake
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/extract-Boost-system-ios.cmake
+-- extracting...
+     src='/Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4/boost_1_66_0.7z'
+     dst='/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-download
+echo "No update step for 'Boost-system-ios'"
+No update step for 'Boost-system-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-update
+echo "No patch step for 'Boost-system-ios'"
+No patch step for 'Boost-system-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-patch
+echo "Performing configure step for 'Boost-system-ios'"
+Performing configure step for 'Boost-system-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/clear-all.sh && ./bootstrap.sh --with-libraries=system --prefix=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-configure
+echo "Performing build step for 'Boost-system-ios'"
+Performing build step for 'Boost-system-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && ./b2 toolset=darwin-iphoneos target-os=iphone architecture=arm instruction-set=armv7 -a link=static threading=multi variant=release,debug define=BOOST_SP_NO_SYNC --layout=tagged --user-config=\"/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/boost.user.jam\" cxxflags=-miphoneos-version-min=11.2 -j 32
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : no
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : no
+    - combined                 : no
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 190 targets...
+...updating 28 targets...
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+common.copy stage/lib/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+common.copy stage/lib/libboost_system-mt.a
+...updated 28 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+
+The following directory should be added to linker library paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/stage/lib
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-build
+echo "No install step for 'Boost-system-ios'"
+No install step for 'Boost-system-ios'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-install
+echo "Completed 'Boost-system-ios'"
+Completed 'Boost-system-ios'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos/Boost-system-ios-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios-prefix/src/Boost-system-ios-stamp/Debug-iphoneos/Boost-system-ios-done
+
+=== BUILD AGGREGATE TARGET Boost-system-ios_sim OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_sim.build/Script-DB9837995BFE40FAAE22C559.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_sim.build/Script-DB9837995BFE40FAAE22C559.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-system-ios_sim.build/Script-DB9837995BFE40FAAE22C559.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_sim.build/Script-DB9837995BFE40FAAE22C559.sh
+echo "Creating directories for 'Boost-system-ios_sim'"
+Creating directories for 'Boost-system-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-mkdir
+echo "No download step for 'Boost-system-ios_sim'"
+No download step for 'Boost-system-ios_sim'
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-download
+echo "No update step for 'Boost-system-ios_sim'"
+No update step for 'Boost-system-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-update
+echo "No patch step for 'Boost-system-ios_sim'"
+No patch step for 'Boost-system-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-patch
+echo "Performing configure step for 'Boost-system-ios_sim'"
+Performing configure step for 'Boost-system-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && . /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/scripts/clear-all.sh && ./bootstrap.sh --with-libraries=system --prefix=/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install
+Building Boost.Build engine with toolset darwin... tools/build/src/engine/bin.macosxx86_64/b2
+Unicode/ICU support for Boost.Regex?... not found.
+Backing up existing Boost.Build configuration in project-config.jam.1
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+
+   - Getting started guide:
+     http://www.boost.org/more/getting_started/unix-variants.html
+
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-configure
+echo "Performing build step for 'Boost-system-ios_sim'"
+Performing build step for 'Boost-system-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && ./b2 toolset=darwin-iphonesimulator target-os=iphone architecture=x86 -a link=static threading=multi variant=release,debug define=BOOST_SP_NO_SYNC --layout=tagged --user-config=\"/Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/boost.user.jam\" cxxflags=-miphoneos-version-min=11.2 -j 32
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : no
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : no
+    - combined                 : no
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 188 targets...
+...updating 21 targets...
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+common.copy stage/lib/libboost_system-mt-d.a
+darwin.compile.c++ bin.v2/libs/system/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/error_code.o
+darwin.archive bin.v2/libs/system/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+common.copy stage/lib/libboost_system-mt.a
+...updated 21 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+
+The following directory should be added to linker library paths:
+
+    /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/stage/lib
+
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-build
+echo "No install step for 'Boost-system-ios_sim'"
+No install step for 'Boost-system-ios_sim'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-install
+echo "Completed 'Boost-system-ios_sim'"
+Completed 'Boost-system-ios_sim'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos/Boost-system-ios_sim-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_sim-prefix/src/Boost-system-ios_sim-stamp/Debug-iphoneos/Boost-system-ios_sim-done
+
+=== BUILD AGGREGATE TARGET Boost-system-ios_universal OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_universal.build/Script-3458B4297C7C4CBBA281C591.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_universal.build/Script-3458B4297C7C4CBBA281C591.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/Boost-system-ios_universal.build/Script-3458B4297C7C4CBBA281C591.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/Boost-system-ios_universal.build/Script-3458B4297C7C4CBBA281C591.sh
+echo "Creating directories for 'Boost-system-ios_universal'"
+Creating directories for 'Boost-system-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/tmp
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-mkdir
+echo "No download step for 'Boost-system-ios_universal'"
+No download step for 'Boost-system-ios_universal'
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/Download/Boost/1.66.0/075d0b4 && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-download
+echo "Performing update step for 'Boost-system-ios_universal'"
+Performing update step for 'Boost-system-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source && /usr/local/Cellar/cmake/3.10.0/bin/cmake -P /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/append-boost-config-macros.cmake
+echo "No patch step for 'Boost-system-ios_universal'"
+No patch step for 'Boost-system-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-patch
+echo "No configure step for 'Boost-system-ios_universal'"
+No configure step for 'Boost-system-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-configure
+echo "No build step for 'Boost-system-ios_universal'"
+No build step for 'Boost-system-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E echo_append
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-build
+echo "Performing install step for 'Boost-system-ios_universal'"
+Performing install step for 'Boost-system-ios_universal'
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install/lib
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /Users/username/.hunter/_Base/Download/Hunter/0.19.208/4128ac8/Unpacked/cmake/projects/Boost/scripts/create-boost-1-66-ios-fatlib.sh /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source system system /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install/lib
+-- [iOS universal] IPHONE_DEBUG: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/bin.v2/libs/system/build/darwin-gnu-iphoneos/debug/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+-- [iOS universal] IPHONE_RELEASE: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/bin.v2/libs/system/build/darwin-gnu-iphoneos/release/architecture-arm/instruction-set-armv7/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+-- [iOS universal] ISIM_DEBUG: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/bin.v2/libs/system/build/darwin-gnu-iphonesimulator/debug/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt-d.a
+-- [iOS universal] ISIM_RELEASE: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Source/bin.v2/libs/system/build/darwin-gnu-iphonesimulator/release/architecture-x86/link-static/target-os-iphone/threadapi-pthread/threading-multi/libboost_system-mt.a
+-- [iOS universal] Done: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Install/lib/{libboost_system-mt-d.a, libboost_system-mt.a}
+cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-build && /usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-install
+echo "Completed 'Boost-system-ios_universal'"
+Completed 'Boost-system-ios_universal'
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E make_directory /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/CMakeFiles/Debug-iphoneos/Boost-system-ios_universal-complete
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E touch /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Boost-system-ios_universal-prefix/src/Boost-system-ios_universal-stamp/Debug-iphoneos/Boost-system-ios_universal-done
+
+=== BUILD AGGREGATE TARGET ALL_BUILD OF PROJECT Hunter WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-D8D09F7899E04D4A903EDB8D.sh
+chmod 0755 /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-D8D09F7899E04D4A903EDB8D.sh
+
+PhaseScriptExecution CMake\ Rules Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-D8D09F7899E04D4A903EDB8D.sh
+    cd /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system
+    /bin/sh -c /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system/Build/Hunter.build/Debug-iphoneos/ALL_BUILD.build/Script-D8D09F7899E04D4A903EDB8D.sh
+echo ""
+
+echo Build\ all\ projects
+Build all projects
+
+** BUILD SUCCEEDED **
+
+-- [hunter] Build step successful (dir: /Users/username/.hunter/_Base/4128ac8/f44fc4c/9d8fc8e/Build/Boost/__system)
+-- [hunter] Cache saved: /Users/username/.hunter/_Base/Cache/raw/9e3128972436f76e5d7150743376d470bcae245c.tar.bz2
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/username/workspace/hunter-example/ios/build
+Ollis-iMac:ios username$
